@@ -22,7 +22,7 @@ def login(username, password):
         if passwordCheck:
             token = createJWT(user['username'])
             return token
-    else:
+    else:   
         return False
 
 def getCommunication():

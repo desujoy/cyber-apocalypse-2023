@@ -54,3 +54,6 @@ def exportFile():
         return send_file(f'/communications/{communicationName}', as_attachment=True)
     except:
         return response('Unable to retrieve the communication'), 400
+
+# to login use the command:
+# curl -X POST -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}' http://
