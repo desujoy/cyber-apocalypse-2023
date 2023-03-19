@@ -136,3 +136,9 @@ module.exports = new GraphQLSchema({
     query: queryType,
     mutation: mutationType
 });
+
+
+// to invoke the updatePassword mutation, we need to curl the following:
+//curl -X POST -H "Content-Type: application/json" -d '{"query": "mutation { UpdatePassword(username: \"admin\", password: \"admin\") { message } }"}' http://localhost:3000/graphql
+//or use the following in the browser console:
+//fetch('http://localhost:3000/graphql', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: 'mutation { UpdatePassword(username: "admin", password: "admin") { message } }' }) }).then(res => res.json()).then(res => console.log(res));
