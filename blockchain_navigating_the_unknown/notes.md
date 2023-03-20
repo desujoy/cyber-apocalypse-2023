@@ -1,0 +1,9 @@
+# recon
+-- 165.232.98.11:31072 - rpc url
+-- 165.232.98.11:31923 - tcp
+
+# connection information
+Private-key:0x0021d8d8ada932488a4638b471aacf490bb351bbc56704b3632686a5a056a0b5
+Address:0xA840EE53555E4690cc7E9F572377bd7a6b682b06
+Target contract:0xC9C3385DC41173b455a502d04F991F55815881C1
+Setup contract:0xf68d0Caf2B0C29f9a268FC0b463b9A74bbCd668C
